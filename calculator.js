@@ -25,7 +25,7 @@ buttons.map((button) => {
         try {
           display.innerText = eval(display.innerText);
         } catch {
-          display.innerText = display.innerText + "  Bad Expression";
+          display.innerText = " Error!";
         }
 
         break;
