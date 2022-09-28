@@ -1,6 +1,15 @@
 /** @format */
 
 // /** @format */
+// time interval functions
+setInterval(function myFunction () {
+  let d = new Date();
+  document.getElementById("demo").innerHTML = d.getHours() + " : " +
+    d.getMinutes() + " : " + d.getSeconds()
+}, 1000);
+
+
+// calculator code
 let display = document.getElementById("display");
 
 let buttons = Array.from(document.getElementsByTagName("button"));
