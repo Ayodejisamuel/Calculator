@@ -8,6 +8,20 @@ setInterval(function myFunction () {
     d.getMinutes() + " : " + d.getSeconds()
 }, 1000);
 
+// time based greeting
+let time = new Date().getHours()
+let greeting
+
+if (time < 12) {
+  greeting = "Good morning"
+}
+else if (time >= 12 ) {
+  greeting = "Good afternoon"
+}else {
+  greeting = "Good evening"
+}
+
+document.getElementById("greeting").innerHTML = greeting;
 
 // calculator code
 let display = document.getElementById("display");
