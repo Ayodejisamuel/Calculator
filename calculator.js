@@ -2,7 +2,8 @@
 
 // /** @format */
 // time interval functions
-setInterval(function myFunction () {
+setInterval(function myFunction () {  
+  
   let d = new Date();
   document.getElementById("demo").innerHTML = d.getHours() + " : " +
     d.getMinutes() + " : " + d.getSeconds()
@@ -17,8 +18,8 @@ if (time < 12) {
 }
 else if (time >= 12 ) {
   greeting = "Good afternoon"
-}else {
-  greeting = "Good evening"
+}else if (time >=  18 ) {
+  greeting = "Good Evening"
 }
 
 document.getElementById("greeting").innerHTML = greeting;
