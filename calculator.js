@@ -1,6 +1,14 @@
 /** @format */
 
 // /** @format */
+setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
+
+function myFunction(value) {
+  document.getElementById("next").innerHTML = value;
+}
+
+
+
 // time interval functions
 setInterval(function myFunction () {  
   
