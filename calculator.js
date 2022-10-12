@@ -24,9 +24,9 @@ let greeting
 if (time < 12) {
   greeting = "Good morning"
 }
-else if (time >= 12 ) {
+else if (time < 18 ) {
   greeting = "Good afternoon"
-}else if (time >=  18 ) {
+}else  {
   greeting = "Good Evening"
 }
 
