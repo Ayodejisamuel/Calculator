@@ -1,23 +1,23 @@
 /** @format */
 
-// /** @format */
+/** @format */
 
  
-// setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
+setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
 
-// function myFunction(value) {
-//   document.getElementById("next").innerHTML = value;
-// }
+function myFunction(value) {
+  document.getElementById("next").innerHTML = value;
+}
 
 
 
-// // time interval functions
-// setInterval(function myFunction () {  
+// time interval functions
+setInterval(function myFunction () {  
   
-//   let d = new Date();
-//   document.getElementById("demo").innerHTML = d.getHours() + " : " +
-//     d.getMinutes() + " : " + d.getSeconds()
-// }, 1000);
+  let d = new Date();
+  document.getElementById("demo").innerHTML = d.getHours() + " : " +
+    d.getMinutes() + " : " + d.getSeconds()
+}, 1000);
 
 // time based greeting
 // let time = new Date().getHours()
