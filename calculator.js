@@ -3,7 +3,7 @@
 // /** @format */
 
 alert("i am here " )
-setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
+// setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
 
 function myFunction(value) {
   document.getElementById("next").innerHTML = value;
@@ -20,19 +20,19 @@ setInterval(function myFunction () {
 }, 1000);
 
 // time based greeting
-let time = new Date().getHours()
-let greeting
+// let time = new Date().getHours()
+// let greeting
 
-if (time < 12) {
-  greeting = "Good morning"
-}
-else if (time < 18 ) {
-  greeting = "Good afternoon"
-}else  {
-  greeting = "Good Evening"
-}
+// if (time < 12) {
+//   greeting = "Good morning"
+// }
+// else if (time < 18 ) {
+//   greeting = "Good afternoon"
+// }else  {
+//   greeting = "Good Evening"
+// }
 
-document.getElementById("greeting").innerHTML = greeting;
+// document.getElementById("greeting").innerHTML = greeting;
 
 // calculator code
 let display = document.getElementById("display");
