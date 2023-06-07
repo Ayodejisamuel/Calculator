@@ -1,6 +1,8 @@
 /** @format */
 
 // /** @format */
+
+alert("i am here " )
 setTimeout(function() {myFunction("Thanks For Checking In");}, 6000);
 
 function myFunction(value) {
